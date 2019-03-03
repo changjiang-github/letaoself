@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- 设置视口 -->
@@ -13,16 +14,337 @@
     <link rel="stylesheet" href="./lib/mui/css/mui.css">
     <!-- 链接字体库fontAwesome的css -->
     <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.css">
-    <!-- 链接模板引擎 -->
 
     <!-- 链接自己的样式css -->
     <link rel="stylesheet" href="./less/index.css">
 
 </head>
-<body>
-    
 
-    
+<body>
+
+    <!-- 头部区域header -->
+    <header id="header">
+        <div class="left"></div>
+        <div class="center">江江的乐淘</div>
+        <div class="right"><i class="fa fa-search"></i></div>
+    </header>
+
+    <!-- 主体区域main -->
+    <main id="main">
+        <!-- MUI滑动 -->
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <!--这里放置真实显示的DOM内容-->
+
+                <!-- 轮播图区域slide -->
+                <section id="slide">
+                    <div id="slider" class="mui-slider">
+                        <div class="mui-slider-group mui-slider-loop">
+                            <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+                            <div class="mui-slider-item mui-slider-item-duplicate">
+                                <a href="#">
+                                    <img src="./images/banner6.png">
+                                </a>
+                            </div>
+                            <!-- 第一张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner1.png">
+                                </a>
+                            </div>
+                            <!-- 第二张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner2.png">
+                                </a>
+                            </div>
+                            <!-- 第三张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner3.png">
+                                </a>
+                            </div>
+                            <!-- 第四张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner4.png">
+                                </a>
+                            </div>
+                            <!-- 第五张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner5.png">
+                                </a>
+                            </div>
+                            <!-- 第六张 -->
+                            <div class="mui-slider-item">
+                                <a href="#">
+                                    <img src="./images/banner6.png">
+                                </a>
+                            </div>
+                            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+                            <div class="mui-slider-item mui-slider-item-duplicate">
+                                <a href="#">
+                                    <img src="./images/banner1.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mui-slider-indicator">
+                            <div class="mui-indicator mui-active"></div>
+                            <div class="mui-indicator"></div>
+                            <div class="mui-indicator"></div>
+                            <div class="mui-indicator"></div>
+                            <div class="mui-indicator"></div>
+                            <div class="mui-indicator"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 导航条区域nav -->
+                <nav id="nav">
+                    <div class="mui-row">
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4">
+                            <a href="#">
+                                <img src="./images/nav5.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <!-- 广告区域 -->
+                <section id="banner">
+                    <div class="mui-row">
+                        <div class="mui-col-xs-8 left">
+                            <a href="#">
+                                <img src="./images/active1.png" alt="">
+                                <img src="./images/active2.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./images/active4.png" alt="">
+                                <img src="./images/active5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mui-col-xs-4 right">
+                            <a href="#">
+                                <img src="./images/active3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 品牌区域 -->
+                <section id="brand">
+                    <div class="title">
+                        <a href="#">
+                            <img src="./images/title0.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="mui-row">
+
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand7.png" alt="">
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-3">
+                                <a href="#">
+                                    <img src="./images/brand8.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 运动专区 -->
+                <section id="sport">
+                    <div class="title">
+                        <a href="">
+                            <img src="./images/title1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="mui-row">
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="./images/product.jpg" alt="">
+                                    <p>addidas阿迪达斯 男士 休闲篮球鞋 S83700</p>
+                                    <p>¥566.00 <del>¥899.00</del></p>
+                                    <button type="button" class="mui-btn mui-btn-primary">购买</button>
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="./images/product.jpg" alt="">
+                                    <p>addidas阿迪达斯 男士 休闲篮球鞋 S83700</p>
+                                    <p>¥566.00 <del>¥899.00</del></p>
+                                    <button type="button" class="mui-btn mui-btn-primary">购买</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 女士专区 -->
+                <section id="women">
+                    <div class="title">
+                        <a href="#">
+                            <img src="./images/title2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="mui-row">
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="//16089138.s21i.faiusr.com/2/ABUIABACGAAg4Iea4wUout2BHDDWATjHAQ.jpg" alt="">
+                                    <p>new balance新百伦 女鞋1550复古休闲女鞋</p>
+                                    <p>¥566.00</p>
+
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="//16089138.s21i.faiusr.com/2/ABUIABACGAAg4Iea4wUohbqiPjDWATjHAQ.jpg" alt="">
+                                    <p>new balance新百伦 中式轻便时尚休闲板鞋</p>
+                                    <p>¥566.00</p>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 男士专区 -->
+                <section id="men">
+                    <div class="title">
+                        <a href="#">
+                            <img src="./images/title3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="mui-row">
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="//16089138.s21i.faiusr.com/2/ABUIABACGAAg19G94wUo-tjiVzDWATjHAQ!200x200.jpg"
+                                        alt="">
+                                    <p>花花公子 男鞋1550轻便休闲女鞋</p>
+                                    <p>¥566.00</p>
+
+                                </a>
+                            </div>
+                            <div class="mui-col-xs-6">
+                                <a href="#">
+                                    <img src="//16089138.s21i.faiusr.com/2/ABUIABACGAAg19G94wUo-tjiVzDWATjHAQ!200x200.jpg"
+                                        alt="">
+                                    <p>花花公子 中式轻便时尚休闲板鞋</p>
+                                    <p>¥566.00</p>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部区域footer -->
+    <footer id="footer">
+        <div class="mui-row">
+            <div class="mui-col-xs-3">
+                <a href="#" class="active">
+                    <i class="fa fa-home"></i>
+                    <p>首页</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="#">
+                    <i class="fa fa-bars"></i>
+                    <p>分类</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <p>购物车</p>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <p>个人中心</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
     <!-- 链接MUI的js -->
     <script src="./lib/mui/js/mui.js"></script>
     <!-- 链接zepto的js -->
@@ -34,4 +356,5 @@
 
 
 </body>
+
 </html>

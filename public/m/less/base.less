@@ -1,0 +1,84 @@
+// 公共的css样式
+/* 
+1. 项目中公共的重复的样式
+2. 初始化样式(MUI已经写好了,只需要适当添加一些用的到的就可以)
+3. 定义一些公共的变量
+ */
+
+//  主体颜色
+@main-color:#006699;
+
+
+ html {
+     font-size: 26.6667vw;
+ }
+ body {
+     font-size: .14rem;
+ }
+//  删除框架MUI的padding和margin
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+img {
+    vertical-align:middle;
+}
+
+// 头部header样式
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: @main-color;
+    color: #fff;
+    display: flex;
+    font-size: .2rem;
+    .left {
+        width: .45rem;
+        height: .45rem;
+    }
+    .center {
+        flex: 1;
+        text-align: center;
+        height: .45rem;
+        line-height: .45rem;
+    }
+    .right {
+        width: .45rem;
+        height: .45rem;
+        line-height: .45rem;
+    }
+}
+
+//main滑块公共设置
+#main {
+    
+}
+
+
+// dibu footer
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: .45rem;
+    background-color: @main-color;
+    a {
+        height: .45rem;;
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        p {
+            color: #fff;
+            margin: 0;
+        }
+        &.active {
+            color: orange;
+            p {
+                color: orange;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/m/lib/mui/css/mui.css">
+    <style>
+        header {
+            width: 100%;
+            height: 45px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-clip: red;
+        }
+        footer {
+            width: 100%;
+            height: 45px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            background-color: red
+        }
+        /* main { */
+            /* 中间main,添加高度100%,但是不能用100%,改成100vh */
+            /* height: 100vh; */
+            /* main的区域滚动式绝对定位的,是不会受到父元素的padding的影响的,所以需要将器改成相对定位 */
+            /* . { */
+                /* 固定高度和main的高度一样, */
+                /* height: 100%; */
+            /* } */
+
+        /* } */
+    </style>
+</head>
+<body>
+    <!-- 
+        需求:
+        1.上中下结构,上下固定定位在top和botton
+        2. 中间滑动iong,但是不出现划定条
+        3.中间main,添加高度100%,但是不能用100%,改成100vh
+        4.使用MUI区域滚动
+
+     -->
+
+     <header></header>
+     <main></main>
+     <footer></footer>
+
+     <script src="../public/m/lib/mui/js/mui.js"></script>
+</body>
+</html>

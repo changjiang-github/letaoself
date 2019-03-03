@@ -1,0 +1,152 @@
+/* 
+1. 项目中公共的重复的样式
+2. 初始化样式(MUI已经写好了,只需要适当添加一些用的到的就可以)
+3. 定义一些公共的变量
+ */
+html {
+  font-size: 26.6667vw;
+}
+body {
+  font-size: .14rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #006699;
+  color: #fff;
+  display: flex;
+  font-size: .2rem;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+}
+#header .center {
+  flex: 1;
+  text-align: center;
+  height: .45rem;
+  line-height: .45rem;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: .45rem;
+  background-color: #006699;
+}
+#footer a {
+  height: .45rem;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer a p {
+  color: #fff;
+  margin: 0;
+}
+#footer a.active {
+  color: orange;
+}
+#footer a.active p {
+  color: orange;
+}
+#main #nav {
+  padding: .1rem;
+}
+#main #nav a {
+  display: flex;
+  flex: 1;
+}
+#main #nav a img {
+  width: 100%;
+  height: 100%;
+}
+#main #banner {
+  padding: 0 .1rem;
+}
+#main #banner .left a {
+  display: flex;
+  flex: 1;
+}
+#main #banner .left a img {
+  width: 50%;
+  height: 1.2rem;
+}
+#main #banner .right a {
+  display: block;
+}
+#main #banner .right a img {
+  width: 100%;
+  height: 2.4rem;
+}
+#main #brand {
+  padding: .1rem;
+}
+#main #brand .title a {
+  display: flex;
+}
+#main #brand .title a img {
+  width: 100%;
+  height: 100%;
+}
+#main #brand .content a {
+  display: flex;
+  flex: 1;
+}
+#main #brand .content a img {
+  width: 100%;
+  height: 100%;
+}
+#main #sport,
+#main #women,
+#main #men {
+  margin-top: .1rem;
+}
+#main #sport .title a,
+#main #women .title a,
+#main #men .title a {
+  display: flex;
+}
+#main #sport .title a img,
+#main #women .title a img,
+#main #men .title a img {
+  width: 100%;
+  height: 100%;
+}
+#main #sport .content,
+#main #women .content,
+#main #men .content {
+  background-color: #fff;
+}
+#main #sport .content a,
+#main #women .content a,
+#main #men .content a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main #sport .content a img,
+#main #women .content a img,
+#main #men .content a img {
+  width: 100%;
+}
